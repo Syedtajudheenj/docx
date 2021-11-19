@@ -3,7 +3,7 @@ const { ProvidePlugin } = require("webpack");
 
 const configuration = {
     mode: "production",
-
+    target: ["web", 'es5'],
     entry: "./src/index.ts",
 
     output: {
